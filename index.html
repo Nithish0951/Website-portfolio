@@ -3,77 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nithish - Video Editing Services</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>My Video Edits</title>
     <link rel="stylesheet" href="color.css">
-    <script defer src="brain.js"></script>
 </head>
 <body>
-
     <header>
-        <h1>Nithish Chowdhary</h1>
-        <p>Professional Video Editing Services</p>
-        <a href="#contact" class="cta-button">Hire Me</a>
+        <h1>🔥 My Video Editing Portfolio 🔥</h1>
     </header>
 
+    <!-- About Me Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>I create stunning and engaging videos that bring your vision to life. Whether it's anime edits, cinematic cuts, or YouTube content, I deliver high-quality work.</p>
+        <h2>📝 About Me</h2>
+        <p>I'm a passionate video editor specializing in <b>beat sync, anime edits, vlog editing</b>, and more! Let's create something amazing together! 🚀</p>
     </section>
 
-    <section id="portfolio">
-        <h2>My Work</h2>
-        
-        <div class="category">
-            <h3>🎬 Shorts Editing</h3>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
-            </div>
+    <!-- Video Sections -->
+    <section id="videos">
+        <h2>🎥 Sample Videos 🎥</h2>
+
+        <div class="video-section">
+            <h3>⚡ Beat Sync ⚡</h3>
+            <video controls>
+                <source src="beat-sync.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
-        <div class="category">
-            <h3>📹 Vlog Editing</h3>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
-            </div>
+        <div class="video-section">
+            <h3>🎬 Sample Edits 🎬</h3>
+            <video controls>
+                <source src="sample-edit.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
-
-        <div class="category">
-            <h3>🔥 Anime Edits</h3>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <div class="category">
-            <h3>🎞️ Cinematic Edits</h3>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <p>Check out my YouTube channel for more!</p>
-        <a href="https://youtube.com/@darkvortex959" class="cta-button">Watch More</a>
     </section>
 
+    <!-- Contact Form -->
     <section id="contact">
-        <h2>Hire Me</h2>
-        <p>Let’s bring your ideas to life! Contact me for video editing services.</p>
-        
-        <form id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+        <h2>📩 Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
-
-        <a href="mailto:your@email.com" class="cta-button">Email Me</a>
-        <a href="https://wa.me/yourwhatsapp" class="cta-button">WhatsApp</a>
+        <p id="response"></p>
     </section>
 
     <footer>
-        <p>&copy; 2025 DarkVortex | Video Editing Services</p>
+        <p>🚀 Created by Your Name | © 2025</p>
     </footer>
 
+    <!-- Link JavaScript -->
+    <script src="brain.js"></script>
 </body>
 </html>
